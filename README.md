@@ -1,18 +1,17 @@
 # GooglePlayStore_Analytics-Tableau_Project
-This project is Google Play Store App Analytics, which I developed using Tableau.
+I worked on a Google Play Store Analytics project using Tableau. The objective was to analyze application performance, understand patterns associated with app popularity, and evaluate customer sentiment through user reviews.
 
-The main objective of this project was to analyze Google Play Store applications and understand the factors associated with app popularity, user ratings, reported installs, pricing, app size, and user sentiment.
+The project used two datasets: one containing application details and another containing customer reviews and sentiment information.
 
-For this project, I worked with two datasets. The first dataset contained app information such as category, rating, reviews, size, installs, and price. The second dataset contained user reviews and sentiment information.
+I developed three dashboards: Google Play Store Overview, App Performance Dashboard, and Review Sentiment Dashboard.
 
-I used Tableau to create interactive dashboards and visualizations. My analysis focused on important KPIs, category performance, free versus paid applications, the relationship between ratings and installs, and user sentiment.
+I used Tableau to create interactive dashboards and visualizations. My analysis focused on important KPIs, category performance, free versus paid applications, the relationship between ratings and installs, and user sentiment. 
+The first dashboard focuses on application counts, total installs, average ratings, category distribution, and free-versus-paid applications. The second dashboard explores relationships between app size, ratings, reviews, and installs. The third dashboard focuses on customer sentiment and negative reviews.
 
-One of the main challenges was data cleaning. The datasets contained missing values, duplicate records, and columns such as installs, size, and price that required data-type conversion. Another challenge was connecting the app and review datasets without duplicating app-level calculations because one app could have multiple review records.
+I also worked with calculated fields to convert install counts, prices, and application sizes into suitable numeric formats. These calculations help make the data easier to analyze and visualize.
 
-During my analysis, I found that the cleaned dataset had an average app rating of approximately 4.19 out of 5. Games, Communication, Social, Productivity, and Tools were among the categories with the highest sums of reported install values. I also observed a positive association between review volume and reported installs. However, I treated these findings as exploratory because correlation does not establish causation.
+One important challenge in this type of project is maintaining data accuracy when combining application information with multiple customer reviews. Another challenge is presenting the findings in a way that helps stakeholders identify areas requiring further investigation.
 
-I organized my Tableau workbook into three dashboards: Google Play Store Overview, App Performance, and Review Sentiment. These dashboards help users explore application performance and identify areas for further investigation.
+I would recommend adding more detailed category comparisons, validating application-review relationships, and investigating recurring themes in negative reviews.
 
-Based on the analysis, I would recommend investigating highly installed apps with lower ratings, studying recurring complaints in negative reviews, comparing free and paid apps using multiple performance indicators, and improving app size and data quality analysis.
-
-This project helped me strengthen my skills in data cleaning, exploratory data analysis, data visualization, and translating analytical findings into business recommendations. It also taught me the importance of validating data before using it to support business decisions.
+This project helped me strengthen my Tableau visualization skills and understand how application data and customer feedback can support product-related business decisions.
